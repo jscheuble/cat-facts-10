@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand&display=swap");
+
+.App {
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  font-size: 62.5%;
+}
+
+body {
+  transition: 0.5s;
+  background: #20b2aa;
+}
+
+nav {
+  margin-top: 2.5%;
+}
+
+nav a {
+  font-size: 1.8rem;
+  margin: 5%;
+  text-decoration: none;
+  color: #000;
+}
+
+.active {
+  text-decoration: underline;
+}
+
+.home-img {
+  width: 60%;
+}
+
+h1 {
+  font-size: 2.8rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+.fetch-btn {
+  margin-top: 8%;
+  padding: 2%;
+  background: transparent;
+  border: 2px solid white;
+  border-radius: 5px;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.fetch-btn:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.fact {
+  font-size: 1.7rem;
+  letter-spacing: 1.5px;
+  font-weight: bold;
+  width: 80%;
+  margin: 9% auto;
+}
+
+.favorites {
+  font-size: 1.5rem;
+}
+
+.saved-favorites {
+  width: 80%;
+  margin: 2% auto;
+  font-size: 1.6rem;
+}
+
+.fav {
+  display: flex;
+  align-items: center;
+}
+
+.trash {
+  transform: translateY(-5%);
+  margin-right: 3%;
+}
